@@ -1,12 +1,12 @@
-package com.jay.interview.usermanager.service;
+package com.jay.interview.usermanager.domain.usecase;
 
-import com.jay.interview.usermanager.domainobject.PageResultDo;
-import com.jay.interview.usermanager.exception.ActionException;
-import com.jay.interview.usermanager.adapter.UserPort;
-import com.jay.interview.usermanager.domainobject.UserDo;
-import com.jay.interview.usermanager.validate.ValidateService;
-import com.jay.interview.usermanager.validate.group.CreateGroup;
-import com.jay.interview.usermanager.validate.group.UpdateGroup;
+import com.jay.interview.usermanager.domain.model.PageResultDo;
+import com.jay.interview.usermanager.common.exception.ActionException;
+import com.jay.interview.usermanager.domain.port.UserPort;
+import com.jay.interview.usermanager.domain.model.UserDo;
+import com.jay.interview.usermanager.adapter.validate.ValidateService;
+import com.jay.interview.usermanager.adapter.validate.group.CreateGroup;
+import com.jay.interview.usermanager.adapter.validate.group.UpdateGroup;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

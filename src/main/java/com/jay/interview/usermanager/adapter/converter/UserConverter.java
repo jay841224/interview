@@ -1,11 +1,11 @@
-package com.jay.interview.usermanager.converter;
+package com.jay.interview.usermanager.adapter.converter;
 
-import com.jay.interview.usermanager.domainobject.PageResultDo;
-import com.jay.interview.usermanager.domainobject.UserDo;
-import com.jay.interview.usermanager.dto.PageResultDto;
-import com.jay.interview.usermanager.dto.UserDto;
-import com.jay.interview.usermanager.dto.UserResourceDto;
-import com.jay.interview.usermanager.entity.UserEntity;
+import com.jay.interview.usermanager.domain.model.PageResultDo;
+import com.jay.interview.usermanager.domain.model.UserDo;
+import com.jay.interview.usermanager.adapter.in.model.PageResultDto;
+import com.jay.interview.usermanager.adapter.in.model.UserDto;
+import com.jay.interview.usermanager.adapter.in.model.UserResourceDto;
+import com.jay.interview.usermanager.repository.entity.UserEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

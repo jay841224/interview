@@ -1,4 +1,4 @@
-package com.jay.interview.usermanager.entity;
+package com.jay.interview.usermanager.repository.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

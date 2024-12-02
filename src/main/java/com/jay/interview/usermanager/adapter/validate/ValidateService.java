@@ -1,4 +1,4 @@
-package com.jay.interview.usermanager.validate;
+package com.jay.interview.usermanager.adapter.validate;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;

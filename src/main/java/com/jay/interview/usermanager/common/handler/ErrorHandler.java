@@ -1,6 +1,6 @@
-package com.jay.interview.usermanager.handler;
+package com.jay.interview.usermanager.common.handler;
 
-import com.jay.interview.usermanager.exception.ActionException;
+import com.jay.interview.usermanager.common.exception.ActionException;
 import jakarta.validation.ConstraintViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

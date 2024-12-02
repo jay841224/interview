@@ -1,10 +1,11 @@
-package com.jay.interview.usermanager.adapter;
+package com.jay.interview.usermanager.adapter.out;
 
-import com.jay.interview.usermanager.converter.UserConverter;
-import com.jay.interview.usermanager.domainobject.PageResultDo;
-import com.jay.interview.usermanager.domainobject.UserDo;
-import com.jay.interview.usermanager.entity.UserEntity;
-import com.jay.interview.usermanager.exception.ActionException;
+import com.jay.interview.usermanager.domain.port.UserPort;
+import com.jay.interview.usermanager.adapter.converter.UserConverter;
+import com.jay.interview.usermanager.domain.model.PageResultDo;
+import com.jay.interview.usermanager.domain.model.UserDo;
+import com.jay.interview.usermanager.repository.entity.UserEntity;
+import com.jay.interview.usermanager.common.exception.ActionException;
 import com.jay.interview.usermanager.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

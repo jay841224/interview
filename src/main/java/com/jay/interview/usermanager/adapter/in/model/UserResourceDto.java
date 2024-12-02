@@ -1,4 +1,4 @@
-package com.jay.interview.usermanager.dto;
+package com.jay.interview.usermanager.adapter.in.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;

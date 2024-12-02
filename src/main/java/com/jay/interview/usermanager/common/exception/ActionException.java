@@ -1,4 +1,4 @@
-package com.jay.interview.usermanager.exception;
+package com.jay.interview.usermanager.common.exception;
 
 public class ActionException extends Exception{
 

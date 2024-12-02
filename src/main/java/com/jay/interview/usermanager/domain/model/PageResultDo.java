@@ -1,4 +1,4 @@
-package com.jay.interview.usermanager.domainobject;
+package com.jay.interview.usermanager.domain.model;
 
 import lombok.Getter;
 import lombok.Setter;
